@@ -18,11 +18,6 @@ APPLICATION_ID=your_application_id
 GEOCODINGAPIKEY=your_openweathermap_api_key
 ```
 
-4. Create a `commands` directory if it doesn't exist:
-```bash
-mkdir commands
-```
-
 ## Running the Bot
 
 1. Make sure all files are in place
