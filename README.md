@@ -38,6 +38,11 @@ python main.py
   - `forecast_days`: Number of forecast days (1-5, default: 3)
   - `rnd`: Decimal places for rounding (1-5, default: 2)
 
+- `/settings` - Manage bot settings
+  - `set [key] [value]` - Set a configuration key to a value
+  - `get [key]` - Get the current value of a configuration key
+  - `list` - List all configuration keys and their values
+
 - Automatic status updates showing temperatures from random cities
 - Cached weather data for better performance
 - Detailed weather information including:
