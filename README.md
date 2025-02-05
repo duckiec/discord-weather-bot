@@ -1,4 +1,5 @@
-**wrote readme using ai**
+**wrote readme using ai**|
+**implemented cache system using ai**
 
 
 # Discord Weather Bot
