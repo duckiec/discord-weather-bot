@@ -1,3 +1,6 @@
+**wrote readme using ai**
+
+
 # Discord Weather Bot
 
 A Discord bot that provides weather information and forecasts using the Open-Meteo API.
