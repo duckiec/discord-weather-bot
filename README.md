@@ -41,7 +41,7 @@ python main.py
   - `get [key]` - Get the current value of a configuration key
   - `list` - List all configuration keys and their values
 
-- Automatic status updates showing temperatures from random cities
+- Status automatically shows temperatures from random cities
 - Cached weather data for better performance
 - Detailed weather information including:
   - Current conditions
