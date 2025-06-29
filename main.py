@@ -11,15 +11,13 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger('weatherbot')
 
 load_dotenv()
-
-# List of major cities for random selection
+# cities
 CITIES = [
     "Tokyo", "New York", "London", "Paris", "Sydney",
     "Moscow", "Dubai", "Singapore", "Rome", "Toronto",
     "Berlin", "Madrid", "Seoul", "Mumbai", "Cairo"
 ]
 
-# Validate required environment variables
 required_env_vars = {
     "DISCORD_TOKEN": os.getenv("DISCORD_TOKEN"),
     "APPLICATION_ID": os.getenv("APPLICATION_ID")
