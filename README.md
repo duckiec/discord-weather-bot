@@ -1,4 +1,4 @@
-````md
+
 # Discord Weather Bot
 
 Weather info in Discord using Open-Meteo.
@@ -48,5 +48,4 @@ python main.py
   * rain/snow
   * 1–5 day forecast
 
-```
-```
+
