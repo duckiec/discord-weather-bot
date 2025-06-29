@@ -12,12 +12,12 @@ def convert_to_list(value):
         return list(value)
     return [value]
 
-# Cache HTTP responses for 1 hour using SQLite backend for better performance
+# cache responses
 cache_session = requests_cache.CachedSession(
     '.cache',
     expire_after=3600,  # 1 hour
     stale_if_error=True,
-    backend='sqlite'  # Use SQLite for better performance
+    backend='sqlite'  
 )
 retry_session = retry(cache_session, retries=2, backoff_factor=0.1)
 openmeteo = openmeteo_requests.Client(session=retry_session)
